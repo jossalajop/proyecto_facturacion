@@ -16,49 +16,44 @@
   <title>Hello, world!</title>
 </head>
 
-<body id="cuerpo1">
+<body ">
 
 
 
 
-  <div class="row">
-    <div class="col">
-
-
-    </div>
-    <div class="col"></div>
-    <div class="card">
-      <div class="user_card pasar">
-        <div class="card-header" id="titulo">
-          ADMINISTRADOR DEL SISTEMA
+  <div class=" container">
+  <div class="screen">
+    <div class="screen__content">
+      <form class="login">
+        <div class="login__field">
+          <i class="login__icon fas fa-user"></i>
+          <input type="text" class="login__input" placeholder="User name / Email">
         </div>
-        <div class="card-body">
-          <form method="get" action="">
-            <div class="form-group">
-              <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                <label for="Codigo">Codigo:</label>
-                <input type="imput" name="" id="codigo" placeholder="INGRESE SU EMAIL" class="form-control"
-                  aria-describedby="helpId">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-key"></i></span>
-                <label for="clave">Contraseña:</label>
-                <input type="password" placeholder="INGRESE SU CLAVE" name="" id="clave" class="form-control"
-                  aria-describedby="helpId">
-              </div>
-
-            </div>
-          </form>
-          <div>
-            <input id="login" type="submit" id="boton" onclick="iniciarSesion()" value="Iniciar Sesion">
-          </div>
-
+        <div class="login__field">
+          <i class="login__icon fas fa-lock"></i>
+          <input type="password" class="login__input" placeholder="Password">
+        </div>
+        <button class="button login__submit">
+          <span class="button__text">Log In Now</span>
+          <i class="button__icon fas fa-chevron-right"></i>
+        </button>
+      </form>
+      <div class="social-login">
+        <h3>log in via</h3>
+        <div class="social-icons">
+          <a href="#" class="social-login__icon fab fa-instagram"></a>
+          <a href="#" class="social-login__icon fab fa-facebook"></a>
+          <a href="#" class="social-login__icon fab fa-twitter"></a>
         </div>
       </div>
     </div>
+    <div class="screen__background">
+      <span class="screen__background__shape screen__background__shape4"></span>
+      <span class="screen__background__shape screen__background__shape3"></span>
+      <span class="screen__background__shape screen__background__shape2"></span>
+      <span class="screen__background__shape screen__background__shape1"></span>
+    </div>
+  </div>
   </div>
 
 

@@ -8,7 +8,12 @@
 }
 
 body {
-    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
@@ -19,7 +24,8 @@ body {
 }
 
 .screen {
-    background: linear-gradient(90deg, #5D54A4, #7C78B8);
+    background: linear-gradient(to right, #78ffd6, #007991);
+
     position: relative;
     height: 600px;
     width: 360px;

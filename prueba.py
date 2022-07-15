@@ -4,7 +4,7 @@ try:
  conexion=psycopg2.connect( 
      host='localhost', 
         user='postgres', 
-        password='2030', 
+        password='12345', 
         database='sistemafactura' 
 ) 
  print('conexion exit ') 
@@ -21,10 +21,6 @@ except Exception as ex:
 finally: 
     conexion.close() 
     print("conexion dos")
-
-
- 
-
 
 
 

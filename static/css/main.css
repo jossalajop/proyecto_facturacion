@@ -1,0 +1,80 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: aliceblue;
+}
+
+#cuerpo1 {
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+#titulo {
+    background: #136bf0;
+    color: aliceblue;
+}
+
+.user_card {
+    height: 300px;
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #e3e5e7ab;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login {
+    width: 100%;
+    background: #136bf0 !important;
+    color: white !important;
+}
+
+.input-group-text {
+    background: #136bf0 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #136bf0 !important;
+}
+
+#carpa {
+    padding-left: 300px;
+    width: 700px;
+    height: 250px;
+}
+
+a {
+    background-color: plum;
+    font-style: oblique;
+    list-style: none;
+    margin: 10px;
+
+}
+
+p {
+    color: purple;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+h3 {
+    color: blue;
+    font-style: italic;
+    text-shadow: 10px 10px 10px #FF0000;
+    text-align: center;
+    font-size: 400px;
+}

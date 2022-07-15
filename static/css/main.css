@@ -29,7 +29,8 @@ body {
     position: relative;
     height: 600px;
     width: 360px;
-    box-shadow: 0px 0px 24px #5C5696;
+    box-shadow: 0px 0px 24px #78ffd6,
+        #007991;
 }
 
 .screen__content {

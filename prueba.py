@@ -4,7 +4,7 @@ try:
  conexion=psycopg2.connect( 
      host='localhost', 
         user='postgres', 
-        password='2030', 
+        password='56789', 
         database='sistemafactura' 
 ) 
  print('conexion exit ') 

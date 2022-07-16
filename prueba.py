@@ -23,8 +23,4 @@ finally:
     print("conexion dos")
 
 
- 
-
-
-
 

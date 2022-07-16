@@ -3,7 +3,7 @@ import psycopg2
 conexion=psycopg2.connect( 
         host='localhost', 
         user='postgres', 
-        password='56789', 
+        password='2030', 
         database='sistemafactura' 
 ) 
 cursor=conexion.cursor()

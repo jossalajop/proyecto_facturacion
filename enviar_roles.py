@@ -7,7 +7,7 @@ from app import *
 DB_HOST = "localhost"
 DB_NAME = "sistemafactura"
 DB_USER = "postgres"
-DB_PASS = "2030"
+DB_PASS = "56789"
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 

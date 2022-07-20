@@ -12,20 +12,17 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
-  <title>registro de usuario</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/menu.css')}}">
+  <title>administrador</title>
 </head>
 <body>
-  <br>
-  <h1>administrador</h1> <br><br>
-  <header>
-    <ul>
-        <li><a href="roles">crear roles</a></li>
-        <li><a href="usuarios">crear usuario</a></li>
-    </ul>
-  </header>
-
-
-
+  <div class="menu">
+      <ul>
+        <li ><br><h1>Administrador</h1></li>
+        <li class="li_ul"><a href="log">Cerrar sesión</a></li>
+        <li class="li_ul"><a href="usuarios">Crear usuario</a></li>
+        <li class="li_ul"><a href="roles">Crear rol</a></li>
+      </ul>
+  </div>
 </body>
 </html>

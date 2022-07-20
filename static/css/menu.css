@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.menu{
+    background-color:rgb(18, 163, 200);
+    padding: 2px;
+    color: rgb(255, 255, 255); 
+    height: 77px;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+
+}
+
+a{
+    width: 150px;
+    padding: 26px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block
+}
+a:hover{
+    background-color: aqua;
+}
+.li_ul{
+    float: right;
+}
+h1{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

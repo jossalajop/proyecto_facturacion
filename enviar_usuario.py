@@ -36,7 +36,7 @@ def insert_usuarios():
         (id_user, nombre1,nombre2,apellido1,apellido2,email,clave,sector,numero_casa,calle_pri,telefono,id_rol))
         conn.commit()
         flash('finalizado')
-        return 'el registro usuario se guardó'
+        return render_template('admin.html')
 
 
 

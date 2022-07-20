@@ -23,7 +23,6 @@ def insert_roles():
         nombrer = request.form['nombrer']
         cur.execute("INSERT INTO roles (id_rol, nombrer) VALUES (%s,%s)", (id_rol, nombrer))
         conn.commit()
-        flash('finalizado')
-        return 'exito'
+        return render_template('admin.html')
 
 
